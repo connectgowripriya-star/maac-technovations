@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>MAAC Technovations</title>
+
+    <meta
+        name="description"
+        content="MAAC Technovations — innovative food, beverage and smart vending solutions."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="site-shell">
+
+    <!-- Background decoration -->
+    <div class="leaf leaf-left"></div>
+    <div class="leaf leaf-right"></div>
+
+    <!-- =========================
+         HOME PAGE
+    ========================== -->
+    <main class="home-page">
+
+        <!-- Header -->
+        <header class="topbar">
+
+            <button
+                class="portal-button"
+                id="portalOpen"
+                type="button"
+                aria-label="Open navigation"
+            >
+                <span>PORTAL</span>
+
+                <span class="hamburger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </button>
+
+        </header>
+
+
+        <!-- Central logo -->
+        <section class="hero">
+
+            <div class="hero-logo">
+                <img
+                    src="assets/maac-logo.png"
+                    alt="MAAC Technovations"
+                />
+            </div>
+
+            <p class="hero-kicker">
+                INNOVATION • NATURE • TECHNOLOGY
+            </p>
+
+        </section>
+
+
+        <!-- Main CTA -->
+        <button
+            class="unveiled-button"
+            id="unveiledButton"
+            type="button"
+        >
+            <span>MAAC UNVEILED</span>
+            <span class="arrow">→</span>
+        </button>
+
+
+        <!-- Product navigation -->
+        <section class="product-strip">
+
+           <!-- Product 1 -->
+<button
+    class="product-card"
+    data-product="coco"
+    type="button"
+>
+    <span class="product-icon">
+        <img src="assets/cocomaac-logo.png" alt="CocoMAAC">
+    </span>
+
+    <span class="product-info">
+        <small>01</small>
+        <strong>COCO MAAC</strong>
+        <em>Smart coconut vending</em>
+    </span>
+</button>
+
+
+            <!-- Divider -->
+            <span class="product-divider"></span>
+
+
+            <!-- Product 2 -->
+            <button
+                class="product-card"
+                data-product="chips"
+                type="button"
+            >
+               <span class="product-icon">
+    <img src="assets/chip-chip-logo.png" alt="Chip Chip">
+</span>
+
+                <span class="product-info">
+                    <small>02</small>
+                    <strong>FRUIT CHIPS</strong>
+                    <em>Natural fruit innovations</em>
+                </span>
+            </button>
+
+
+            <span class="product-divider"></span>
+
+
+            <!-- Product 3 -->
+            <button
+                class="product-card"
+                data-product="juice"
+                type="button"
+            >
+                <span class="product-icon">
+    <img src="assets/pulpivorush-logo.png" alt="Pulpivorush">
+</span>
+
+                <span class="product-info">
+                    <small>03</small>
+                    <strong>FRUIT JUICE</strong>
+                    <em>Fresh natural beverages</em>
+                </span>
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PORTAL MENU
+    ========================== -->
+    <aside
+        class="portal-overlay"
+        id="portalOverlay"
+        aria-hidden="true"
+    >
+
+        <button
+            class="close-button"
+            id="portalClose"
+            type="button"
+            aria-label="Close menu"
+        >
+            ×
+        </button>
+
+        <div class="portal-content">
+
+            <p class="portal-label">
+                MAAC / PORTAL
+            </p>
+
+            <h2>
+                Explore<br />
+                MAAC
+            </h2>
+
+            <nav class="portal-navigation">
+
+                <button
+                    class="portal-link"
+                    data-page="about"
+                    type="button"
+                >
+                    <span>01</span>
+                    <strong>ABOUT US</strong>
+                    <em>Our story &amp; vision</em>
+                </button>
+
+
+                <button
+                    class="portal-link"
+                    data-page="products"
+                    type="button"
+                >
+                    <span>02</span>
+                    <strong>OUR PRODUCTS</strong>
+                    <em>Discover our innovations</em>
+                </button>
+
+
+                <button
+                    class="portal-link"
+                    data-page="technology"
+                    type="button"
+                >
+                    <span>03</span>
+                    <strong>TECHNOLOGY</strong>
+                    <em>Innovation behind MAAC</em>
+                </button>
+
+                <button
+    class="portal-link"
+    data-page="gallery"
+    type="button"
+>
+    <span>04</span>
+    <strong>GALLERY</strong>
+    <em>Inside the MAAC world</em>
+</button>
+                <button
+                    class="portal-link"
+                    data-page="contact"
+                    type="button"
+                >
+                    <span>05</span>
+                    <strong>CONTACT US</strong>
+                    <em>Let's connect</em>
+                </button>
+
+            </nav>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================
+         MAAC UNVEILED PAGE
+    ========================== -->
+    <section
+        class="content-panel"
+        id="aboutPanel"
+        aria-hidden="true"
+    >
+
+        <button class="panel-close" type="button">
+            ×
+        </button>
+
+        <div class="panel-inner">
+
+            <div class="panel-number">
+                01 / ABOUT
+            </div>
+
+            <div class="panel-grid">
+
+                <div>
+                    <p class="eyebrow">
+                        WHERE NATURE MEETS INNOVATION
+                    </p>
+
+                    <h2>
+                        Building healthier
+                        experiences for
+                        modern lives.
+                    </h2>
+                </div>
+
+                <div class="panel-copy">
+
+                    <p>
+                        MAAC Technovations is focused on creating
+                        innovative food, beverage and technology
+                        solutions that combine quality, convenience,
+                        nutrition and thoughtful design.
+                    </p>
+
+                    <p>
+                        Our vision is to make better choices more
+                        accessible through natural ingredients,
+                        innovative product development and smart
+                        technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRODUCTS PAGE
+    ========================== -->
+    <section
+        class="content-panel"
+        id="productsPanel"
+        aria-hidden="true"
+    >
+
+        <button class="panel-close" type="button">
+            ×
+        </button>
+
+        <div class="panel-inner">
+
+            <div class="panel-number">
+                02 / PRODUCTS
+            </div>
+
+            <div class="product-page-grid">
+
+                <div class="product-page-intro">
+
+                    <p class="eyebrow">
+                        THE MAAC COLLECTION
+                    </p>
+
+                    <h2>
+                        Three ideas.
+                        One vision.
+                    </h2>
+
+                    <p>
+                        Explore our growing range of food,
+                        beverage and smart vending innovations.
+                    </p>
+
+                </div>
+
+
+                <div class="product-page-list">
+
+                    <button
+                        class="product-page-item"
+                        data-product="coco"
+                        type="button"
+                    >
+                        <span>01</span>
+                        <strong>COCO MAAC</strong>
+                        <small>Smart coconut vending</small>
+                    </button>
+
+
+                    <button
+                        class="product-page-item"
+                        data-product="chips"
+                        type="button"
+                    >
+                        <span>02</span>
+                        <strong>FRUIT CHIPS</strong>
+                        <small>Natural fruit snacks</small>
+                    </button>
+
+
+                    <button
+                        class="product-page-item"
+                        data-product="juice"
+                        type="button"
+                    >
+                        <span>03</span>
+                        <strong>FRUIT JUICE</strong>
+                        <small>Natural beverages</small>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TECHNOLOGY PAGE
+    ========================== -->
+    <section
+        class="content-panel"
+        id="technologyPanel"
+        aria-hidden="true"
+    >
+
+        <button class="panel-close" type="button">
+            ×
+        </button>
+
+        <div class="panel-inner">
+
+            <div class="panel-number">
+                03 / TECHNOLOGY
+            </div>
+
+            <div class="technology-grid">
+
+                <div>
+                    <p class="eyebrow">
+                        SMART FOOD TECHNOLOGY
+                    </p>
+
+                    <h2>
+                        Innovation that
+                        serves nature.
+                    </h2>
+                </div>
+
+                <div class="technology-points">
+
+                    <div>
+                        <span>01</span>
+                        <strong>SMART VENDING</strong>
+                        <p>
+                            Technology-driven coconut
+                            dispensing experience.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>PRODUCT INNOVATION</strong>
+                        <p>
+                            Modern approaches to
+                            fruit-based products.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>QUALITY</strong>
+                        <p>
+                            Focused on consistency,
+                            convenience and customer experience.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     GALLERY PAGE
+========================== -->
+<section
+    class="content-panel"
+    id="galleryPanel"
+    aria-hidden="true"
+>
+
+    <button class="panel-close" type="button">
+        ×
+    </button>
+
+    <div class="panel-inner">
+
+        <div class="panel-number">
+            04 / GALLERY
+        </div>
+
+        <div class="gallery-header">
+
+            <div>
+                <p class="eyebrow">
+                    THE MAAC WORLD
+                </p>
+
+                <h2>
+                    Moments of<br>
+                    innovation.
+                </h2>
+            </div>
+
+            <p class="gallery-intro">
+                A visual collection of MAAC products,
+                ideas and experiences.
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <button class="gallery-card" type="button">
+                <img
+                    src="assets/cocomaac-logo.png"
+                    alt="CocoMAAC"
+                >
+                <span>CocoMAAC</span>
+            </button>
+
+            <button class="gallery-card" type="button">
+                <img
+                    src="assets/chip-chip-logo.png"
+                    alt="Chip Chip"
+                >
+                <span>Chip Chip</span>
+            </button>
+
+            <button class="gallery-card" type="button">
+                <img
+                    src="assets/pulpivorush-logo.png"
+                    alt="Pulpivorush"
+                >
+                <span>Pulpivorush</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- =========================
+         CONTACT PAGE
+    ========================== -->
+    <section
+        class="content-panel"
+        id="contactPanel"
+        aria-hidden="true"
+    >
+
+        <button class="panel-close" type="button">
+            ×
+        </button>
+
+        <div class="panel-inner">
+
+            <div class="panel-number">
+                04 / CONTACT
+            </div>
+
+            <div class="contact-grid">
+
+                <div>
+
+                    <p class="eyebrow">
+                        LET'S CREATE SOMETHING BETTER
+                    </p>
+
+                    <h2>
+                        Let's build the
+                        future of food.
+                    </h2>
+
+                </div>
+
+                <div class="contact-details">
+
+                    <div>
+                        <small>EMAIL</small>
+                        <a href="mailto:maactechnovations@gmail.com">
+                            maactechnovations@gmail.com
+                        </a>
+                    </div>
+
+                    <div>
+                        <small>PHONE</small>
+                        <a href="tel:+919840983833">
+                            +91 98409 83833
+                        </a>
+                    </div>
+
+                    <div>
+                        <small>LOCATION</small>
+                        <p>
+                            Coimbatore, Tamil Nadu, India
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRODUCT DETAIL MODAL
+    ========================== -->
+    <section
+        class="product-modal"
+        id="productModal"
+        aria-hidden="true"
+    >
+
+        <button
+            class="product-modal-close"
+            id="productModalClose"
+            type="button"
+        >
+            ×
+        </button>
+
+        <div class="product-modal-content">
+
+            <div class="product-modal-image">
+
+                <img
+                    id="productModalImage"
+                    src=""
+                    alt=""
+                />
+
+            </div>
+
+            <div class="product-modal-copy">
+
+                <p
+                    class="product-modal-number"
+                    id="productModalNumber"
+                ></p>
+
+                <h2 id="productModalTitle"></h2>
+
+                <p
+                    class="product-modal-tagline"
+                    id="productModalTagline"
+                ></p>
+
+                <p
+                    class="product-modal-description"
+                    id="productModalDescription"
+                ></p>
+
+                <div
+                    class="product-features"
+                    id="productFeatures"
+                ></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
