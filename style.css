@@ -1323,3 +1323,70 @@ a {
 
     letter-spacing: 0.12em;
 }
+
+@media (max-width: 760px) {
+
+    .product-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 150;
+    }
+
+    .product-modal-close {
+        position: fixed;
+
+        top: 16px;
+        right: 16px;
+
+        width: 44px;
+        height: 44px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 50%;
+
+        border: 1px solid rgba(163, 107, 49, 0.45);
+
+        background: #F4EAD8;
+
+        color: #063B2E;
+
+        font-size: 34px;
+        font-weight: 300;
+
+        line-height: 1;
+
+        z-index: 99999;
+
+        box-shadow:
+            0 5px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-modal-copy {
+        position: relative;
+
+        padding-top: 85px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    .product-modal-image {
+        min-height: 38vh;
+        max-height: 42vh;
+
+        padding: 25px;
+    }
+
+    .product-modal-image img {
+        max-height: 34vh;
+        width: auto;
+        max-width: 90%;
+    }
+
+}
